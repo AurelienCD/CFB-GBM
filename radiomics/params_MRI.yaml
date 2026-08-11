@@ -1,0 +1,16 @@
+setting:
+  normalize: false
+  resampledPixelSpacing: [1, 1, 1]
+  interpolator: sitkBSpline
+  label: 1
+
+  binWidth: 5
+
+featureClass:
+  shape:
+  firstorder:
+  glcm:
+  glrlm:
+  glszm:
+  gldm:
+  ngtdm:
