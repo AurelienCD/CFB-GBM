@@ -64,6 +64,31 @@ be set up separately:
   [`antspyx`](https://github.com/ANTsX/ANTsPy), which are not currently
   pinned in `pyproject.toml`.
 
+
+## Citation
+
+If you use this model, please cite the associated dataset paper and the CFB-GBM v2.0 dataset.
+
+```bibtex
+@article{leclercq_cfbgbm_v2,
+  title   = {CFB-GBM v2.0: An Augmented Longitudinal Dataset for Multi-Modal Glioblastoma Segmentation, Radiomics, and RANO Progression Tracking},
+  author  = {Leclercq, Alexandre G. and Moreau, Noémie N. and Audebert, Hugo and Nassar, Andros and Cochin, Thomas and Leleu, Thomas and Le Henaff, Loïc and Desmonts, Alexis and Poirier, Yoann and Dubru,  Aurélie and Guillemette, Laura and Lecoeur, Pascal and Lemasson, Kévin and Jaudet, Cyril and Bougleux, Sébastien and Hérault, Romain and Brunaud, Carole and Valable, Samuel and Stefan, Dinu and Raboutet, Charlotte and Batalla, Alain and Lacroix, Joëlle and Rouzier, Roman and Corroyer-Dulmont, Aurélien},
+  journal = {Machine Learning for Biomedical Imaging (MELBA)},
+  note    = {To appear}
+}
+
+@misc{TCIA,
+  title = {Pre and Post Treatment {{MRI}} and Radiotherapy Plans of Patients with Glioblastoma: The {{CFB-GBM}} Cohort ({{CFB-GBM}})},
+  shorttitle = {Pre and Post Treatment {{MRI}} and Radiotherapy Plans of Patients with Glioblastoma},
+  author  = {Moreau, Noémie N., Leclercq, Alexandre G. and Desmonts, Alexis and Poirier, Yoann and Dubru, Aurélie and Guillemette, Laura and Lecoeur, Pascal and Lemasson, Kévin and Jaudet, Cyril and Brunaud, Carole and Valable, Samuel and Geffrelot, Julien and Stefan, Dinu and Leleu, Thomas and Raboutet, Charlotte and Le Henaff, Loïc and Batalla, Alain and Lacroix, Joëlle and Rouzier, Roman and Corroyer-Dulmont, Aurélien},
+  year = {2025},
+  publisher = {The Cancer Imaging Archive},
+  doi = {10.7937/V9PN-2F72},
+  url = {https://www.cancerimagingarchive.net/collection/cfb-gbm/},
+  version = {3}
+}
+```
+
 ## License
 
 This repository is released under the
