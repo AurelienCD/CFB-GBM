@@ -1,6 +1,7 @@
 # CFB-GBM
 [![Dataset on TCIA](https://img.shields.io/badge/Dataset-TCIA-1C7BB8?style=flat-square&logo=databricks&logoColor=white)](https://www.cancerimagingarchive.net/collection/cfb-gbm/)
 [![Model on HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20GTV%20Model%20Segmentation-SegCFB--GBM-FFD21E?style=flat-square)](https://huggingface.co/AlexLECLERCQ/SegCFB-GBM)
+[![paper](https://img.shields.io/badge/DOI%20PUBLISHER-10.59275/j.melba.2026--dd48-blue?style=flat-square)](https://doi.org/10.59275/j.melba.2026-dd48)
 
 
 This repository contains some of the scripts use to create the **CFB-GBM** dataset —
@@ -70,11 +71,17 @@ be set up separately:
 If you use this model, please cite the associated dataset paper and the CFB-GBM v2.0 dataset.
 
 ```bibtex
-@article{leclercq_cfbgbm_v2,
-  title   = {CFB-GBM v2.0: An Augmented Longitudinal Dataset for Multi-Modal Glioblastoma Segmentation, Radiomics, and RANO Progression Tracking},
-  author  = {Leclercq, Alexandre G. and Moreau, Noémie N. and Audebert, Hugo and Nassar, Andros and Cochin, Thomas and Leleu, Thomas and Le Henaff, Loïc and Desmonts, Alexis and Poirier, Yoann and Dubru,  Aurélie and Guillemette, Laura and Lecoeur, Pascal and Lemasson, Kévin and Jaudet, Cyril and Bougleux, Sébastien and Hérault, Romain and Brunaud, Carole and Valable, Samuel and Stefan, Dinu and Raboutet, Charlotte and Batalla, Alain and Lacroix, Joëlle and Rouzier, Roman and Corroyer-Dulmont, Aurélien},
-  journal = {Machine Learning for Biomedical Imaging (MELBA)},
-  note    = {To appear}
+@article{melba:2026:038:leclerq,
+    title = "CFB-GBM v2.0: An Augmented Longitudinal Dataset for Multi-Modal Glioblastoma Segmentation, Radiomics, and RANO Progression Tracking",
+    author = "Leclerq, Alexandre G. and Moreau, Noémie N. and Audebert, Hugo and Nassar, Andros and Cochin, Thomas and Leleu, Thomas and Le Henaff, Loı̈c and Desmonts, Alexis and Poirier, Yoann and Dubru, Aurélie and Guillemette, Laura and Lecoeur, Pascal and Lemasson, Kévin and Jaudet, Cyril and Bougleux, Sébastien and Hérault, Romain and Brunaud, Carole and Valable, Samuel and Stefan, Dinu and Raboutet, Charlotte and Batalla, Alain and Lacroix, Joëlle and Rouzier, Roman and Corroyer-Dulmont, Aurélien",
+    journal = "Machine Learning for Biomedical Imaging",
+    volume = "2026",
+    issue = "Special Issue on MICCAI Open Data 2026",
+    year = "2026",
+    pages = "763--771",
+    issn = "2766-905X",
+    doi = "https://doi.org/10.59275/j.melba.2026-dd48",
+    url = "https://melba-journal.org/2026:038"
 }
 
 @misc{TCIA,
